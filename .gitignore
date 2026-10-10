@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python
+ai/.venv/
+ai/__pycache__/
+ai/*.py[cod]
+ai/.pytest_cache/
+ai/.mypy_cache/
+
+# Laravel
+backend/vendor/
+backend/.env
+backend/storage/*.key
+backend/bootstrap/cache/*.php
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
